@@ -298,3 +298,7 @@ In the following chapters, we will explore the applications of AI and ML in the 
 ![Cozy office]({{ '/images/jmstorm_In_this_painting_GPT-4_is_represented_as_a_cosmic_creat_5452e6ab-022a-430a-91ba-4a2097b7f12e.avif' | url }})
 
 ...
+
+
+#### Acknowledgement
+ChatGPT
