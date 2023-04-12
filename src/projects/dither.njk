@@ -2,21 +2,57 @@
 title: Dithering
 ---
 
+<style>
+  .canvas-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #originalCanvas,
+  #canvas {
+    margin: 0 10px;
+  }
+</style>
 
 
-<canvas id="canvas"></canvas>
+<select id="imageSelector">
+{% for image in images %}
+  <option value="{{ image }}">{{ image }}</option>
+{% endfor %}
+</select>
+
+<div class="canvas-container">
+  <canvas id="originalCanvas"></canvas>
+  <canvas id="canvas"></canvas>
+</div>
+
 <script>
+const originalCanvas = document.getElementById('originalCanvas');
+const originalCtx = originalCanvas.getContext('2d');
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 const img = new Image();
+const imageSelector = document.getElementById('imageSelector');
 
-img.src = '/images/jmstorm_1980s_hallway_illustration_with_five_doors_and_a_man_in_db445077-c33b-41a6-9f29-c82e90ff519a.avif'; // Replace with the path to your image.
+// Load the initially selected image.
+img.src = imageSelector.value;
 img.crossOrigin = 'anonymous';
+
+imageSelector.addEventListener('change', () => {
+  img.src = imageSelector.value;
+});
+
 img.onload = () => {
-    canvas.width = img.width;
-    canvas.height = img.height;
-    ctx.drawImage(img, 0, 0);
-    applyFloydSteinbergDithering(ctx, canvas.width, canvas.height);
+  // Draw the original image
+  originalCanvas.width = img.width;
+  originalCanvas.height = img.height;
+  originalCtx.drawImage(img, 0, 0);
+
+  // Draw the dithered image
+  canvas.width = img.width;
+  canvas.height = img.height;
+  ctx.drawImage(img, 0, 0);
+  applyFloydSteinbergDithering(ctx, canvas.width, canvas.height);
 };
 
 function applyFloydSteinbergDithering(ctx, width, height) {

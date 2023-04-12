@@ -28,7 +28,7 @@ function randomColor() {
 function randomGradient() {
     const gradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
     gradient.addColorStop(0, randomColor());
-    gradient.addColorStop(1, randomColor());
+    gradient.addColorStop(1, randomColor()); 
     return gradient;
 }
 
