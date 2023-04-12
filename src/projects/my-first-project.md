@@ -1,5 +1,9 @@
 ---
-title: First project
+title: First projects
 ---
 
-Something about machine learning?
+# Dithering test
+[dither]({{ '/examples/dither/' | url }}).
+
+# Random images
+[Random Chinece characters]({{ '/examples/chinese/' | url }}).
