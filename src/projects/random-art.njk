@@ -1,0 +1,61 @@
+---
+title: Random art
+---
+
+<canvas id="word-image" width="400" height="200"></canvas>
+<script>
+const words = [
+    { chinese: '你好', pinyin: 'nǐ hǎo', translation: 'Hello' },
+    { chinese: '谢谢', pinyin: 'xièxie', translation: 'Thank you' },
+    { chinese: '再见', pinyin: 'zàijiàn', translation: 'Goodbye' },
+    { chinese: '对不起', pinyin: 'duìbùqǐ', translation: 'Sorry' },
+    { chinese: '请', pinyin: 'qǐng', translation: 'Please' },
+];
+
+const canvas = document.getElementById('word-image');
+const ctx = canvas.getContext('2d');
+
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function randomColor() {
+    return `rgb(${getRandomInt(0, 255)}, ${getRandomInt(0, 255)}, ${getRandomInt(0, 255)})`;
+}
+
+function randomGradient() {
+    const gradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
+    gradient.addColorStop(0, randomColor());
+    gradient.addColorStop(1, randomColor());
+    return gradient;
+}
+
+function drawBackground() {
+    ctx.fillStyle = randomGradient();
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+}
+
+function drawText(text, fontSize, x, y) {
+    ctx.font = `${fontSize}px Arial`;
+    ctx.fillStyle = 'white';
+    ctx.textAlign = 'center';
+    ctx.fillText(text, x, y);
+}
+
+function drawRandomWord() {
+    const randomWord = words[getRandomInt(0, words.length - 1)];
+    drawText(randomWord.chinese, 48, canvas.width / 2, canvas.height / 2 - 20);
+    drawText(randomWord.pinyin, 24, canvas.width / 2, canvas.height / 2 + 20);
+    drawText(randomWord.translation, 24, canvas.width / 2, canvas.height / 2 + 50);
+}
+
+function generateRandomWordImage() {
+    drawBackground();
+    drawRandomWord();
+}
+
+generateRandomWordImage();
+setInterval(generateRandomWordImage, 5000); // Change the word and background every 5 seconds.
+</script>
