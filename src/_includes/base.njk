@@ -5,17 +5,20 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title }}</title>
-        
+        <link rel="stylesheet" href="{{ '/style.css' | url }}">
     </head>
     <body>
         <header>
-            <a href="{{ '/' | url }}" class="link--home">My Blog</a>
+            <a href="{{ '/' | url }}" class="link--home">[å storme]</a>
+            <a href="{{ '/posts/' | url }}" class="link--about">Posts</a>
+            <a href="{{ '/projects/' | url }}" class="link--about">Projects</a>
+            <a href="{{ '/stories/' | url }}" class="link--about">Stories</a>
             <a href="{{ '/about/' | url }}" class="link--about">About</a>
             <h1>{{ title }}</h1>
         </header>
         <main>
             {{ content | safe }}
         </main>
-        <footer>&copy; JM Storm</footer>
+        <footer>&copy; JM Storm 2023. Laget med <a href="https://www.11ty.dev/">11ty</a></footer>
     </body>
 </html>

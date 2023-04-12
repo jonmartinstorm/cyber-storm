@@ -1,9 +1,7 @@
 ---
-title: [🌩 storme 🌪]
+title: Posts
 layout: "base.njk"
 ---
-
-**storme** - blåse sterkt, være i sterkt indre opprør, heftig bevegelse, fare, styrte
 
 {% for post in collections.posts %}
 
