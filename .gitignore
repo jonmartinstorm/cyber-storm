@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 # eleventy _site
-# _site
+_site
