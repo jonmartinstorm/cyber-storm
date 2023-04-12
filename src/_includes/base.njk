@@ -8,18 +8,21 @@
         <link rel="stylesheet" href="{{ '/style.css' | url }}">
     </head>
     <body>
+        <div class="page-container">
         <header>
-            <a href="{{ '/' | url }}" class="link--home">[å storme]</a>
+            <a href="{{ '/' | url }}" class="link--home">[storme]</a>
             <a href="{{ '/posts/' | url }}" class="link--about">Posts</a>
             <a href="{{ '/projects/' | url }}" class="link--about">Projects</a>
             <a href="{{ '/stories/' | url }}" class="link--about">Stories</a>
             <a href="{{ '/book/' | url }}" class="link--about">Book</a>
             <a href="{{ '/about/' | url }}" class="link--about">About</a>
-            <h1>{{ title }}</h1>
+            
         </header>
-        <main>
+        <main class="article-column">
+            <h1>{{ title }}</h1>
             {{ content | safe }}
         </main>
-        <footer>&copy; JM Storm 2023. Laget med <a href="https://www.11ty.dev/">11ty</a></footer>
+        <footer>&copy; JM Storm 2023. Laget med <a href="https://www.11ty.dev/">11ty</a>! <a href="https://github.com/jonmartinstorm/cyber-storm">GitHub source</a></footer>
+        </div>
     </body>
 </html>
