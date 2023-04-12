@@ -2,7 +2,7 @@
 title: Rina and ChatGPT
 ---
 
-![alt text]({{ '/images/jmstorm_a_cozy_low_tech_laboratory_in_a_wooden_house_with_many__c607dbfd-5bfb-4eb8-8131-bf1c37b6c62b.avif' | url }} "Title")
+![alt text]({{ '/images/jmstorm_a_cozy_low_tech_laboratory_in_a_wooden_house_with_many__c607dbfd-5bfb-4eb8-8131-bf1c37b6c62b.webp' | url }} "Title")
 
 Once upon a time, in a sunlit corner of the galaxy, a curious engineer named Rina floated through the vibrant corridors of the interstellar station Celestia. Rina had spent years mastering the art of designing starship propulsion systems, but the siren song of artificial intelligence tugged at her heartstrings. The whispers of AI, with its incredible power to reshape the cosmos, danced in her mind, and Rina could no longer resist the urge to explore this new frontier.
 
