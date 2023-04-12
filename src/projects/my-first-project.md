@@ -2,8 +2,8 @@
 title: First projects
 ---
 
-# Dithering test
+## Dithering test
 [dither]({{ '/examples/dither/' | url }}).
 
-# Random images
+## Random images
 [Random Chinece characters]({{ '/examples/chinese/' | url }}).

@@ -1,0 +1,28 @@
+---
+title: Grid with all midjourney images
+---
+
+<style>
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .image-grid-item img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 10px;
+    object-fit: cover;
+  }
+</style>
+
+<p>{{ images | length }} images</p>
+<div class="image-grid">
+{% for image in images %}
+  <div class="image-grid-item">
+    <img src="{{ image }}" alt="{{ image }}" />
+  </div>
+{% endfor %}
+</div>
