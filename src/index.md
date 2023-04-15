@@ -5,8 +5,3 @@ layout: "base.njk"
 
 **storme** - blåse sterkt, være i sterkt indre opprør, heftig bevegelse, fare, styrte
 
-{% for post in collections.posts %}
-
-- [{{ post.data.title}}]({{ post.url }})
-
-{% endfor %}

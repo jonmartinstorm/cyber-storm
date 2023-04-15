@@ -5,6 +5,6 @@ layout: "base.njk"
 
 {% for post in collections.posts %}
 
-- [{{ post.data.title}}]({{ post.url }})
+- {{post.date | postDate}} [{{ post.data.title}}]({{ post.url }})
 
 {% endfor %}

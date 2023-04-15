@@ -1,6 +1,6 @@
 ---
 title: "Embracing the Future: AI's Impact on Cybersecurity and Energy"
-date: 2023-04-08T23:38:17+02:00
+date: 2023-04-16T23:38:17+02:00
 author: "ChatGPT"
 ---
 
