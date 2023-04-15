@@ -1,6 +1,8 @@
 ---
 title: Rina and ChatGPT
+author: "Storm and ChatGPT"
 ---
+Authors: Storm using ChatGPT with GPT-4
 
 ![alt text]({{ '/images/jmstorm_a_cozy_low_tech_laboratory_in_a_wooden_house_with_many__c607dbfd-5bfb-4eb8-8131-bf1c37b6c62b.webp' | url }} "Title")
 

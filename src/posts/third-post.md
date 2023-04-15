@@ -4,6 +4,8 @@ date: 2023-04-15T09:20:59+02:00
 author: "Storm and ChatGPT"
 ---
 
+Authors: Storm using ChatGPT with GPT-4
+
 Hey there! In my previous posts, I talked about how ChatGPT has helped me pursue my passions for technology and writing. Today, I want to talk about another tool that has been instrumental in creating content for my site – Midjourney.
 
 Midjourney is an AI-powered image creation tool that I've been using to create images for my site. It's a fantastic tool that makes it easy to create stunning visuals in a matter of minutes. But, as with any AI-powered tool, there are some ethical implications to consider.

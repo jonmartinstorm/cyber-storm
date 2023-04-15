@@ -4,6 +4,8 @@ date: 2023-04-15T09:40:59+02:00
 author: "Storm and ChatGPT"
 ---
 
+Authors: Storm using ChatGPT with GPT-4
+
 Hey there! As someone who uses ChatGPT to create content such as blog posts, short stories, and books, I understand the importance of using this tool in an ethical and morally good way. In this post, I want to share some best practices for using ChatGPT to create content while being mindful of ethical and moral concerns.
 
 1. Use high-quality input text - The quality of the input text that you use to train ChatGPT can affect the quality of the output text. It's important to use high-quality text that is free from bias and inaccuracies. If you're not sure about the quality of the text, it's always a good idea to do some research and fact-checking.

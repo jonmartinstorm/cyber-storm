@@ -4,6 +4,8 @@ date: 2023-04-15T09:00:59+02:00
 author: "Storm and ChatGPT"
 ---
 
+Authors: Storm using ChatGPT with GPT-4
+
 As a father, a full-time employee, and a PhD candidate, time is a valuable commodity that I cannot afford to waste. With so much going on in my life, I barely have time to pursue my passion for technology and writing. However, with the help of ChatGPT, a language model that uses AI, I have found a way to stay on top of my interests while managing my busy life.
 
 One of my interests is cybersecurity in OT, which has become a hot topic in recent years. With cyber threats increasing every day, it is essential to stay up-to-date with the latest news and trends in cybersecurity. As an enthusiast in this field, I want to share my views on the latest news about cybersecurity in OT with my readers. I believe that the best way to stay secure is to be aware of the threats and how to protect against them.

@@ -4,6 +4,8 @@ date: 2023-04-15T09:30:59+02:00
 author: "Storm and ChatGPT"
 ---
 
+Authors: Storm using ChatGPT with GPT-4
+
 Hey there! As a paid user of both ChatGPT and Midjourney, understanding licensing schemes can be crucial. In this post, I want to provide a guide to some of the most common licensing schemes and how they apply to content and code created using these paid tools.
 
 Let's start with ChatGPT. As a paid user, I have the right to use the language model to generate text and code. The text and code that I generate using ChatGPT are my own, and I have the copyright ownership over them. However, it's essential to note that the original text used to train the model may be subject to copyright protection. It's always a good idea to check the licensing terms of any text that you use to train ChatGPT.

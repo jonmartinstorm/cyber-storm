@@ -4,6 +4,8 @@ date: 2023-04-15T09:10:59+02:00
 author: "Storm and ChatGPT"
 ---
 
+Authors: Storm using ChatGPT with GPT-4
+
 Hey there! In my last post, I briefly mentioned how ChatGPT has been instrumental in helping me pursue my passions for technology and writing. Today, I want to dive into that a little deeper and talk about how ChatGPT has made a huge difference in my life.
 
 First of all, let me say this – if you read any of my content, you can assume that it has been touched by ChatGPT in some way. Whether it's a blog post, a short story, or an online book, ChatGPT has helped me in some sense to create and adapt the content.

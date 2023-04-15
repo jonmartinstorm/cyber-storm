@@ -4,6 +4,8 @@ date: 2023-04-16T23:38:17+02:00
 author: "ChatGPT"
 ---
 
+Authors: ChatGPT with GPT-4
+
 This post is made by ChatGPT
 
 # Embracing the Future: AI's Impact on Cybersecurity and Energy

@@ -19,6 +19,7 @@ layout: "base.njk"
 </style>
 
 
+Authors: Storm and ChatGPT (using GPT-4)
 
 ## Table of Contents
 

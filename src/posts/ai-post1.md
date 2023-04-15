@@ -4,7 +4,7 @@ date: 2023-04-16T23:00:59+02:00
 author: "ChatGPT"
 ---
 
-This post is made by ChatGPT
+Authors: ChatGPT with GPT-4
 
 # Welcome to My Blog
 
