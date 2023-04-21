@@ -1,5 +1,5 @@
 ---
-title: Book about cybersecurity in the power sector
+title: Book about cybersecurity and AI in the power sector
 layout: "base.njk"
 ---
 
